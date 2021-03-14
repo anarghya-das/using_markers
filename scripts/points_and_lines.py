@@ -65,7 +65,7 @@ if __name__ == '__main__':
             line_list.points.append(p)
 
         marker_pub.publish(points)
-        marker_pub.publish(line_list)
+        marker_pub.publish(line_strip)
         marker_pub.publish(line_list)
 
         r.sleep()
